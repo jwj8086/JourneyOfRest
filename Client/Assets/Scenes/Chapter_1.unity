@@ -4538,6 +4538,51 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &164665703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164665705}
+  - component: {fileID: 164665704}
+  m_Layer: 0
+  m_Name: BulletPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &164665704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164665703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c164a9bd2c9ef6419bc88ac60f43d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolTarget: {fileID: 0}
+--- !u!4 &164665705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164665703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &172934932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4757,6 +4802,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetTransform: {fileID: 19665027}
+--- !u!1 &668332869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2712892954178628206, guid: 91adce42b8b941346a1664469a9b1d61, type: 3}
+  m_PrefabInstance: {fileID: 1355853271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &668332874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668332869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f43e6c1ee813d469f23f60d92c15d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletPooler: {fileID: 164665704}
+  _muzzleTransform: {fileID: 0}
+  _audioSource: {fileID: 0}
+  _audioClips: []
+  _firingInterval: 0.3
+  _reloadInterval: 1
 --- !u!1 &784482981
 GameObject:
   m_ObjectHideFlags: 0
@@ -4773,7 +4841,7 @@ GameObject:
   - component: {fileID: 784482986}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4786,7 +4854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784482981}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -120374,6 +120442,14 @@ PrefabInstance:
     - target: {fileID: 2712892954178628211, guid: 91adce42b8b941346a1664469a9b1d61, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791213754377966355, guid: 91adce42b8b941346a1664469a9b1d61, type: 3}
+      propertyPath: _weaponary
+      value: 
+      objectReference: {fileID: 668332874}
+    - target: {fileID: 7491273393743764477, guid: 91adce42b8b941346a1664469a9b1d61, type: 3}
+      propertyPath: _runSpeed
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91adce42b8b941346a1664469a9b1d61, type: 3}

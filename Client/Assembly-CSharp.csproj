@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{12F44184-A422-5F27-22E6-507969043F15}</ProjectGuid>
+    <ProjectGuid>{28C9513B-D2A8-0726-0CD2-3EEA538EEB22}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,14 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Player\Weaponary.cs" />
-    <Compile Include="Assets\Scripts\ObjectPooler\ObjectPooler.cs" />
-    <Compile Include="Assets\Scripts\ObjectPooler\Poolable.cs" />
+    <Compile Include="Assets\Scripts\Monster\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\Utils\Extensions.cs" />
+    <Compile Include="Assets\EnemyAttackRangeController.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler\Poolable.cs" />
+    <Compile Include="Assets\Scripts\Player\Weaponary.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Object\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Monster\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler\ObjectPooler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

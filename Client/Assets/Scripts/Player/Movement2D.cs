@@ -13,8 +13,9 @@ public class Movement2D : MonoBehaviour {
     [Header("Variables")]
     [SerializeField]  private float _runSpeed = 5.0f; //이동 속도
     [SerializeField]  private float _jumpForce = 8.0f;
+    [HideInInspector] public bool doubleJumped = false;
+    [HideInInspector] public bool isJumping = false;
 
-    [HideInInspector] public bool isLongJump = false;
 
     #endregion
 
@@ -23,12 +24,7 @@ public class Movement2D : MonoBehaviour {
     }
 
     private void FixedUpdate() {
-        if(isLongJump && _rigid2D.velocity.y > 0) {
-            _rigid2D.gravityScale = 1.0f;
-        }
-        else {
-            _rigid2D.gravityScale = 2.5f;
-        }
+        
     }
 
     public void Move(Vector2 dir) {
@@ -40,6 +36,12 @@ public class Movement2D : MonoBehaviour {
 
     public void Jump() {
         // jumpForce의 크기만큼 윗쪽 방향으로 속력 설정
+        if (doubleJumped)
+            return;
+        if (isJumping)
+            doubleJumped = true;
+
+        isJumping = true;
         _rigid2D.velocity = Vector2.up * _jumpForce;
     }
 }

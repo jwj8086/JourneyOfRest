@@ -28,17 +28,7 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space)) {
             _movement2D.Jump();
         }
-
-        //스페이스 키를 누르고 있으면 isLongJump = true
-        if(Input.GetKey(KeyCode.Space)) {
-            _movement2D.isLongJump = true;
-        }
-
-        //스페이스 키를 떼면 isLongJump = false
-        else if(Input.GetKeyUp(KeyCode.Space)) {
-            _movement2D.isLongJump = false;
-        }
-
+        
         //일단 Z를 공격하는걸로 고정
         if(Input.GetKeyDown(KeyCode.Z)) {
             Shot();
@@ -50,8 +40,12 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.CompareTag("Floor"))
+        if (collision.gameObject.CompareTag("Floor"))
+        {
+            _movement2D.doubleJumped = false;
+            _movement2D.isJumping = false;
             _animator.SetBool("IsGrounded", true);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision) {
@@ -75,5 +69,10 @@ public class PlayerController : MonoBehaviour {
 
     private void Rolling() {
         _animator.SetTrigger("OnRoll");
+    }
+
+    public void Damage(float atkDamage)
+    {
+        
     }
 }

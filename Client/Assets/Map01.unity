@@ -85253,7 +85253,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83b5398429fe3f844ba70f097172129b, type: 2}
+  - {fileID: 2100000, guid: c399aeb3d6bdcb24cb3611a96a7c42c2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120811,6 +120811,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6921744312224197267, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7917232361605639025, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -120859,6 +120863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy1
       objectReference: {fileID: 0}
+    - target: {fileID: 7917232361605639028, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917232361605639029, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
       propertyPath: m_Size.x
       value: 1.5
@@ -120882,6 +120890,10 @@ PrefabInstance:
     - target: {fileID: 7917232361605639029, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
       propertyPath: m_UsedByComposite
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055511218885773627, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
+      propertyPath: sight
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 9055511218885773627, guid: 2993dbd02beca264f9e13b9e4b4a9d1c, type: 3}
       propertyPath: targetTransform
@@ -130599,3 +130611,64 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1001 &6767364275871708851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485474, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767364275618485501, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: m_Name
+      value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519664386215673413, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 1899131443}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: facdff9ab76c58d40bfa3d797839b3dd, type: 3}

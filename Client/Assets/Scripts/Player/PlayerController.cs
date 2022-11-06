@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] private SpriteRenderer  _renderer   = null;
     [SerializeField] private Animator        _animator   = null;
     [SerializeField] private Weaponary       _weaponary  = null;
-
+    [SerializeField] private Bullet          _bullet     = null;
 
     #endregion
 
@@ -29,8 +29,8 @@ public class PlayerController : MonoBehaviour {
             _movement2D.Jump();
         }
         
-        //일단 Z를 공격하는걸로 고정
-        if(Input.GetKeyDown(KeyCode.Z)) {
+        //일단 J를 공격하는걸로 고정
+        if(Input.GetKeyDown(KeyCode.J)) {
             Shot();
         }
 

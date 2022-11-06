@@ -15,7 +15,7 @@ public class EnemyMove : MonoBehaviour
 
     public float nextMove;
     public Transform targetTransform;
-    public float sight = 50;
+    public float sight = 30;
     public bool isTracking = false;
 
     //나중에 피해 추가
@@ -120,11 +120,11 @@ public class EnemyMove : MonoBehaviour
     {
         if (isTracking == false)
         {
-            nextMove = Random.Range(-1, 2) * 8;
+            nextMove = Random.Range(-1, 2) * 9;
         }
         else
         {
-            nextMove = (targetTransform.position - transform.position).normalized.x * 8;
+            nextMove = (targetTransform.position - transform.position).normalized.x * 9;
         }
 
         anim.SetFloat("WalkSpeed", nextMove < 0 ? nextMove * -1 : nextMove);
@@ -146,7 +146,7 @@ public class EnemyMove : MonoBehaviour
             spriteRenderer.flipX = (nextMove < 0);
 
             CancelInvoke();
-            Invoke("Think", 2);
+            Invoke("Think", 1);
     }
     
     void Turn (bool direction)
@@ -158,7 +158,7 @@ public class EnemyMove : MonoBehaviour
         spriteRenderer.flipX = direction;
 
         CancelInvoke();
-        Invoke("Think", 2);
+        Invoke("Think", 1);
     }
 }
 

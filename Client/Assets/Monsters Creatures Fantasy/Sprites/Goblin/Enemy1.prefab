@@ -297,7 +297,7 @@ MonoBehaviour:
   player: {fileID: 0}
   nextMove: 0
   targetTransform: {fileID: 0}
-  sight: 30
+  sight: 27
   isTracking: 0
   E_atkDamage: 0
   E_Attack: 0
@@ -318,7 +318,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

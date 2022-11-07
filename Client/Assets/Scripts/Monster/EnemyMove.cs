@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
-{
+public class EnemyMove : MonoBehaviour {
 
     //해야 할 것: 트리거, 유저가 근처에 있을 시 공격 모션 출력
     Rigidbody2D rigid;
@@ -25,25 +24,20 @@ public class EnemyMove : MonoBehaviour
     public float E_atkDistance;
     private WaitForSeconds E_AttackInterval;
 
-    public PlayerController Player
-    {
+    public PlayerController Player {
         get { return player; }
-        set
-        {
+        set {
             player = value;
-            if (null == value)
-            {
+            if(null == value) {
                 E_Attack = false;
-            }                
-            else
-            {
+            }
+            else {
                 E_Attack = true;
                 Attack();
-            }  
+            }
         }
     }
-    void Awake()
-    {
+    void Awake() {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -52,14 +46,12 @@ public class EnemyMove : MonoBehaviour
         Invoke("Think", 0);
     }
 
-    void FixedUpdate()
-    {
-            Move();
+    void FixedUpdate() {
+        Move();
     }
 
-    void Move()
-    {
-        if (E_Attack)
+    void Move() {
+        if(E_Attack)
             return;
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
 
@@ -68,44 +60,37 @@ public class EnemyMove : MonoBehaviour
 
         RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 3, LayerMask.GetMask("Platform"));
 
-        if (rayHit.collider == null)
-        {
+        if(rayHit.collider == null) {
             Turn();
         }
 
         Vector2 moveForce = targetTransform.position - transform.position;
 
 
-        if (moveForce.magnitude < 10)
-        {
+        if(moveForce.magnitude < 10) {
             isTracking = true;
 
             //TODO: 바라보는 방향이 플레이어 위치가 아닐 경우
             Turn(moveForce.x < 0);
         }
 
-        if (isTracking)
-        {
-            if (moveForce.y > 5)
-            {
+        if(isTracking) {
+            if(moveForce.y > 5) {
                 isTracking = false;
             }
         }
     }
 
-    void Attack()
-    {
-        if (player == null)
+    void Attack() {
+        if(player == null)
             return;
 
         StartCoroutine(CoAttacking());
     }
 
-    private IEnumerator CoAttacking()
-    {
-        while (true)
-        {
-            if (player == null)
+    private IEnumerator CoAttacking() {
+        while(true) {
+            if(player == null)
                 break;
             player.Damage(E_atkDamage);
 
@@ -116,42 +101,36 @@ public class EnemyMove : MonoBehaviour
         yield break;
     }
 
-    void Think()
-    {
-        if (isTracking == false)
-        {
+    void Think() {
+        if(isTracking == false) {
             nextMove = Random.Range(-1, 2) * 9;
         }
-        else
-        {
-            nextMove = (targetTransform.position - transform.position).normalized.x * 9;
+        else {
+            nextMove = ( targetTransform.position - transform.position ).normalized.x * 9;
         }
 
         anim.SetFloat("WalkSpeed", nextMove < 0 ? nextMove * -1 : nextMove);
 
-        if (nextMove != 0)
-        {
-            spriteRenderer.flipX = (nextMove < 0);
+        if(nextMove != 0) {
+            spriteRenderer.flipX = ( nextMove < 0 );
         }
-        
+
         float nextThinkTime = Random.Range(2f, 5f);
 
         Invoke("Think", nextThinkTime);
 
     }
 
-    void Turn()
-    {
-            nextMove = nextMove * (-1);
-            spriteRenderer.flipX = (nextMove < 0);
+    void Turn() {
+        nextMove = nextMove * ( -1 );
+        spriteRenderer.flipX = ( nextMove < 0 );
 
-            CancelInvoke();
-            Invoke("Think", 1);
+        CancelInvoke();
+        Invoke("Think", 1);
     }
-    
-    void Turn (bool direction)
-    {
-        if (spriteRenderer.flipX == direction)
+
+    void Turn(bool direction) {
+        if(spriteRenderer.flipX == direction)
             return;
 
         nextMove *= -1;

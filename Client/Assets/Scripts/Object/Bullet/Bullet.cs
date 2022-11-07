@@ -10,13 +10,11 @@ public class Bullet : Poolable {
 
     #endregion
 
-
     #region Variables
     private Vector2 _dir = Vector2.zero;
     [SerializeField] private float _bulletSpeed = 10.0f;
 
     #endregion
-
 
     #region Unity Event Functions
 

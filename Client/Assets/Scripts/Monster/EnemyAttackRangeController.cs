@@ -12,7 +12,7 @@ public class EnemyAttackRangeController : MonoBehaviour
             return;
 
         enemyController.Player = collision.gameObject.GetComponent<PlayerController>();
-        Debug.Log("Player감지");
+        Debug.Log("Player추적 시작");
         //TODO: 추가적인 공격 함수 작성 필요
     }
 
@@ -20,7 +20,7 @@ public class EnemyAttackRangeController : MonoBehaviour
     {
         if (!collision.CompareTag("Player"))
             return;
-        Debug.Log("Player제거");
+        Debug.Log("Player추적 해제");
         enemyController.Player = null;
     }
 }

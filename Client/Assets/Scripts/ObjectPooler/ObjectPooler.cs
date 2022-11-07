@@ -1,10 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class ObjectPooler : MonoBehaviour
-{
+public struct PoolableQueueInstance {
+    public GameObject poolable;
+    public int usedTick;
+}
+
+public class ObjectPooler : MonoBehaviour {
     [Header("Pooling Object's Prefab")]
     public Poolable _poolTarget = null;
     private List<Poolable> _pool = new List<Poolable>();
@@ -20,8 +26,13 @@ public class ObjectPooler : MonoBehaviour
                 return;
 
             go.gameObject.SetActive(false);
+            go.Init(DestroyObject);
             _pool.Add(go);
         }
+    }
+
+    private void Update() {
+        OnUpdate();
     }
 
     #endregion
@@ -31,8 +42,10 @@ public class ObjectPooler : MonoBehaviour
         GameObject go = null;
 
         for(int i = 0; i < _pool.Count; i++) {
-            if(_pool[i].gameObject.activeSelf == false)
+            if(_pool[i].gameObject.activeSelf == false) {
                 go = _pool[i].gameObject;
+                break;
+            }
         }
 
         if(go == null) {
@@ -47,7 +60,7 @@ public class ObjectPooler : MonoBehaviour
     #endregion
 
     #region Internal Functions
-    private GameObject GenerateObject(int count = 5) {
+    private GameObject GenerateObject(int count = 10) {
         if(_poolTarget == null)
             return null;
 
@@ -60,6 +73,7 @@ public class ObjectPooler : MonoBehaviour
                 return null;
 
             poolable.Init(DestroyObject);
+            _pool.Add(poolable);
         }
 
         return go;
@@ -74,4 +88,8 @@ public class ObjectPooler : MonoBehaviour
 
     #endregion
 
+    #region Virtual Functions
+    protected virtual void OnUpdate() { }
+
+    #endregion
 }

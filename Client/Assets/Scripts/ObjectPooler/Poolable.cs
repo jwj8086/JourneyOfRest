@@ -4,9 +4,12 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Extensions;
+using System.Timers;
 
 public class Poolable : MonoBehaviour {
     private Action<Poolable> DestroyAction;
+
+    public bool _needWithdraw = false;
 
     public void Init(Action<Poolable> destroyAction) {
         DestroyAction = destroyAction;

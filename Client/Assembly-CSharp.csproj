@@ -56,14 +56,30 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Player\Weaponary.cs" />
-    <Compile Include="Assets\Scripts\ObjectPooler\ObjectPooler.cs" />
-    <Compile Include="Assets\Scripts\ObjectPooler\Poolable.cs" />
+    <Compile Include="Assets\Scripts\Object\Player\Movement2D.cs" />
     <Compile Include="Assets\Scripts\Utils\Extensions.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler\Poolable.cs" />
+    <Compile Include="Assets\Scripts\Object\Player\Weaponary.cs" />
+    <Compile Include="Assets\Scripts\Object\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Object\Bullet\Bullet.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler\ObjectPooler.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\Enemy.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\Loader.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\BoardManager.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\Player.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\Wall.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\MovingObject.cs" />
+    <Compile Include="Assets\ExternalAssets\2DRogueLike\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Object\Merchant\Merchant.cs" />
+    <Compile Include="Assets\Scripts\Object\BaseClass\Interactable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fonts\OFL.txt" />
+    <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

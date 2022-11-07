@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2712892954178628205}
   - component: {fileID: 7491273393743764477}
   - component: {fileID: 2791213754377966355}
+  - component: {fileID: 4729986943474023198}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -33,6 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7527779073589463819}
+  - {fileID: 7254207925852686152}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -114,6 +116,25 @@ MonoBehaviour:
   _movement2D: {fileID: 7491273393743764477}
   _renderer: {fileID: 8451311269341554233}
   _animator: {fileID: 4569029678521497061}
+  _weaponary: {fileID: 4729986943474023198}
+--- !u!114 &4729986943474023198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712892954178628206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f43e6c1ee813d469f23f60d92c15d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletPooler: {fileID: 0}
+  _muzzleTransform: {fileID: 7254207925852686152}
+  _audioSource: {fileID: 0}
+  _audioClips: []
+  _firingInterval: 0.3
+  _reloadInterval: 1
 --- !u!1 &5528894441531384172
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,3 +240,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &6167692901664290843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7254207925852686152}
+  m_Layer: 0
+  m_Name: Muzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7254207925852686152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167692901664290843}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.715, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2712892954178628211}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

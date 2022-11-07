@@ -14,7 +14,8 @@ public class Bullet : Poolable {
     #region Variables
     private Vector2 _dir = Vector2.zero;
     [SerializeField] private float _bulletSpeed = 10.0f;
-
+    [SerializeField] private float _bulletAliveTime = 10.0f;
+    [SerializeField] private float _bulletDestroyTransformX;
     #endregion
 
 
@@ -29,9 +30,14 @@ public class Bullet : Poolable {
 
     private void OnEnable() {
         _rigid.velocity = _dir * _bulletSpeed;
+        _bulletDestroyTransformX = _dir.x * _bulletSpeed * _bulletAliveTime;
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void Update() {
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
         Destroy();
     }
 

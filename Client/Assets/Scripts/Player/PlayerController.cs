@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] private SpriteRenderer  _renderer   = null;
     [SerializeField] private Animator        _animator   = null;
     [SerializeField] private Weaponary       _weaponary  = null;
-    [SerializeField] private Bullet          _bullet     = null;
 
     #endregion
 
@@ -28,20 +27,23 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space)) {
             _movement2D.Jump();
         }
-        
+
         //일단 J를 공격하는걸로 고정
-        if(Input.GetKeyDown(KeyCode.J)) {
+        if(Input.GetKeyDown(KeyCode.Z)) {
             Shot();
         }
 
         if(Input.GetKeyDown(KeyCode.LeftShift)) {
             Rolling();
         }
+
+        if(Input.GetKeyDown(KeyCode.R)) {
+            Reload();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.CompareTag("Floor"))
-        {
+        if(collision.gameObject.CompareTag("Floor")) {
             _movement2D.doubleJumped = false;
             _movement2D.isJumping = false;
             _animator.SetBool("IsGrounded", true);
@@ -65,14 +67,18 @@ public class PlayerController : MonoBehaviour {
 
     private void Shot() {
         _weaponary.PullTrigger(_renderer.flipX == true ? Vector2.left : Vector2.right);
+        _animator.SetTrigger("Attack");
     }
 
     private void Rolling() {
         _animator.SetTrigger("OnRoll");
     }
 
-    public void Damage(float atkDamage)
-    {
-        
+    private void Reload() {
+        _weaponary.Reload();
+    }
+
+    public void Damage(float atkDamage) {
+
     }
 }

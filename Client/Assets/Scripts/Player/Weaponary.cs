@@ -43,6 +43,7 @@ public class Weaponary : MonoBehaviour {
     private WaitForSeconds _monsterFiringIntervalWait;
     [SerializeField] private float _reloadInterval = 1f;
     private WaitForSeconds _reloadIntervalWait;
+
     #endregion
 
     #region Properties
@@ -117,7 +118,6 @@ public class Weaponary : MonoBehaviour {
         bullet.transform.position = _muzzleTransform.position;
         bullet.Initialize(dir);
         bullet.gameObject.SetActive(true);
-        //TODO: 총알 생성 구현
         //TODO: 사운드 재생 구현
     }
 

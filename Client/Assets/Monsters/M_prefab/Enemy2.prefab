@@ -320,7 +320,6 @@ MonoBehaviour:
   targetTransform: {fileID: 0}
   sight: 30
   isTracking: 0
-  E_atkDamage: 0
+  E_atkDamage: 10
   E_Attack: 0
   E_atkCoolTime: 3
-  E_atkDistance: 0

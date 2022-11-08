@@ -376,6 +376,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/DeathBehaviour.cs"
 "Assets/Scripts/Camera/CameraController.cs"
 "Assets/Scripts/Monster/EnemyAttackRangeController.cs"
 "Assets/Scripts/Monster/EnemyMove.cs"

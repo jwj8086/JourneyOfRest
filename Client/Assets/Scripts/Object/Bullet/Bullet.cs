@@ -7,13 +7,13 @@ public class Bullet : Poolable {
     #region Components
     private BoxCollider2D _collider = null;
     private Rigidbody2D _rigid = null;
-
     #endregion
 
-    #region Variables
-    private Vector2 _dir = Vector2.zero;
-    [SerializeField] private float _bulletSpeed = 10.0f;
 
+    #region Variables
+    public Vector2 _dir = Vector2.zero;
+    [SerializeField] private float _bulletSpeed = 10.0f;
+    [SerializeField] private int _bulletDamage = 20;
     #endregion
 
     #region Unity Event Functions
@@ -27,6 +27,7 @@ public class Bullet : Poolable {
 
     private void OnEnable() {
         _rigid.velocity = _dir * _bulletSpeed;
+        Invoke("Destroy", 10.0f);
     }
 
     private void OnTriggerEnter(Collider other) {

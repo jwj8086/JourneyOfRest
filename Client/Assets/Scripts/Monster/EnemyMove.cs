@@ -18,10 +18,10 @@ public class EnemyMove : MonoBehaviour {
     public bool isTracking = false;
 
     //나중에 피해 추가
+    public int E_hp;
     public int E_atkDamage;
     public bool E_Attack;
     public float E_atkCoolTime = 2.0f;
-    public float E_atkDistance;
     private WaitForSeconds E_AttackInterval;
 
     public PlayerController Player {
@@ -37,6 +37,7 @@ public class EnemyMove : MonoBehaviour {
             }
         }
     }
+
     void Awake() {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -46,7 +47,8 @@ public class EnemyMove : MonoBehaviour {
         Invoke("Think", 0);
     }
 
-    void FixedUpdate() {
+    void FixedUpdate() 
+    {
         Move();
     }
 
@@ -139,6 +141,9 @@ public class EnemyMove : MonoBehaviour {
         CancelInvoke();
         Invoke("Think", 1);
     }
+
+    private void TakeDamage()
+    {
+
+    }
 }
-
-

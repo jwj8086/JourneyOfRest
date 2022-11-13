@@ -9,6 +9,7 @@ TagManager:
   - endPoint
   - Ceiling
   - Bullet
+  - Trigger
   layers:
   - Default
   - TransparentFX

@@ -11,8 +11,8 @@ public class Bullet : Poolable {
 
 
     #region Variables
-    public Vector2 _dir = Vector2.zero;
-    [SerializeField] private float _bulletSpeed = 10.0f;
+    public Vector3 _dir = Vector3.zero;
+    [SerializeField] private float _bulletSpeed = 20.0f;
     [SerializeField] private int _bulletDamage = 20;
     #endregion
 
@@ -25,19 +25,33 @@ public class Bullet : Poolable {
             _rigid = GetComponent<Rigidbody2D>();
     }
 
+    private void Update()
+    {
+        //Debug.Log($"Pos: {transform.position}");
+    }
+
     private void OnEnable() {
         _rigid.velocity = _dir * _bulletSpeed;
         Invoke("Destroy", 10.0f);
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Trigger"))
+            return;
+
+        if (collision.CompareTag("Enemy")){
+            collision.gameObject.GetComponent<EnemyMove>().Takedamage(_bulletDamage);
+        }
+
         Destroy();
     }
 
     #endregion
 
     #region Internal Functions
-    public void Initialize(Vector2 dir) {
+    public void Initialize(Vector3 dir, Vector3 pos) {
+        transform.position = pos;
         _dir = dir;
     }
 

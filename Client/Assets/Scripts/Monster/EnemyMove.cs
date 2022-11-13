@@ -1,28 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
 public class EnemyMove : MonoBehaviour {
+    #region Components
+    [SerializeField] private Rigidbody2D rigid = null;
+    [SerializeField] private Animator anim = null;
+    [SerializeField] private SpriteRenderer spriteRenderer = null;
+    [SerializeField] private BoxCollider2D boxcollider2D = null;
 
-    //해야 할 것: 트리거, 유저가 근처에 있을 시 공격 모션 출력
-    Rigidbody2D rigid;
-    public Animator anim;
-    SpriteRenderer spriteRenderer;
-    public BoxCollider2D boxcollider2D;
-    [HideInInspector]public PlayerController player;
+    #endregion
 
+    #region GameObjects
+    [SerializeField] private Bullet bullet = null;
+    [HideInInspector] public PlayerController player = null;
+
+    #endregion
     public float nextMove;
     public Transform targetTransform;
     public float sight = 30;
     public bool isTracking = false;
 
     //나중에 피해 추가
-    public int E_hp;
-    public int E_atkDamage;
-    public bool E_Attack;
+    private bool _isAlive = true;
+    public bool IsAlive { get => _isAlive; }
+
+    [SerializeField] private float e_maxHp = 0.0f;
+    private float e_curHp = 0.0f;
+    public int E_atkDamage = 0;
+    public bool E_Attack = false;
     public float E_atkCoolTime = 2.0f;
-    private WaitForSeconds E_AttackInterval;
+    private WaitForSeconds E_AttackInterval = null;
 
     public PlayerController Player {
         get { return player; }
@@ -43,17 +53,27 @@ public class EnemyMove : MonoBehaviour {
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         E_AttackInterval = new WaitForSeconds(E_atkCoolTime);
+        bullet = GetComponent<Bullet>();
 
         Invoke("Think", 0);
+    }
+
+    private void OnEnable()
+    {
+        e_curHp = e_maxHp;
     }
 
     void FixedUpdate() 
     {
         Move();
+        Debug.Log($"CurHp: {e_curHp}");
     }
 
     void Move() {
-        if(E_Attack)
+        if (!_isAlive)
+            return;
+
+        if (E_Attack)
             return;
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
 
@@ -84,6 +104,9 @@ public class EnemyMove : MonoBehaviour {
     }
 
     void Attack() {
+        if (!_isAlive)
+            return;
+
         if(player == null)
             return;
 
@@ -92,7 +115,10 @@ public class EnemyMove : MonoBehaviour {
 
     private IEnumerator CoAttacking() {
         while(true) {
-            if(player == null)
+            if (!_isAlive)
+                break;
+
+            if (player == null)
                 break;
             player.Damage(E_atkDamage);
 
@@ -103,15 +129,19 @@ public class EnemyMove : MonoBehaviour {
         yield break;
     }
 
-    void Think() {
-        if(isTracking == false) {
+    void Think()
+    {
+        if (!_isAlive)
+            return;
+
+        if (isTracking == false) {
             nextMove = Random.Range(-1, 2) * 9;
         }
         else {
             nextMove = ( targetTransform.position - transform.position ).normalized.x * 9;
         }
 
-        anim.SetFloat("WalkSpeed", nextMove < 0 ? nextMove * -1 : nextMove);
+        anim.SetFloat("WalkSpeed", Mathf.Abs(nextMove));
 
         if(nextMove != 0) {
             spriteRenderer.flipX = ( nextMove < 0 );
@@ -124,6 +154,9 @@ public class EnemyMove : MonoBehaviour {
     }
 
     void Turn() {
+        if (!_isAlive)
+            return;
+
         nextMove = nextMove * ( -1 );
         spriteRenderer.flipX = ( nextMove < 0 );
 
@@ -132,7 +165,10 @@ public class EnemyMove : MonoBehaviour {
     }
 
     void Turn(bool direction) {
-        if(spriteRenderer.flipX == direction)
+        if (!_isAlive)
+            return;
+
+        if (spriteRenderer.flipX == direction)
             return;
 
         nextMove *= -1;
@@ -142,8 +178,20 @@ public class EnemyMove : MonoBehaviour {
         Invoke("Think", 1);
     }
 
-    private void TakeDamage()
+    public void Takedamage(float damage)
     {
+        if (_isAlive == false) return;
+        Debug.Log($"Damage: {damage}");
+        e_curHp = Mathf.Clamp(e_curHp - damage, 0f, e_maxHp);
 
+        if (e_curHp <= 0.0f){
+            _isAlive = false;
+            anim.SetTrigger("Die");
+
+            Destroy(this.gameObject, 1);
+            return;
+        }
+        anim.SetTrigger("OnHit");
+        return;
     }
 }

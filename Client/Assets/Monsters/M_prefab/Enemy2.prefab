@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3711210271544881558}
   m_Layer: 0
   m_Name: AttackRange
-  m_TagString: Untagged
+  m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 4208323168594733059}
   m_Layer: 0
   m_Name: AttackRange (1)
-  m_TagString: Untagged
+  m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,13 +313,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec35d6791143df48aa88ead2cc5dec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigid: {fileID: 0}
   anim: {fileID: 6524010297664700890}
+  spriteRenderer: {fileID: 0}
   boxcollider2D: {fileID: 1683000243686073684}
+  bullet: {fileID: 0}
   player: {fileID: 0}
   nextMove: 0
   targetTransform: {fileID: 0}
   sight: 30
   isTracking: 0
+  e_maxHp: 40
   E_atkDamage: 10
   E_Attack: 0
   E_atkCoolTime: 3

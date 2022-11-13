@@ -20,6 +20,7 @@ public class ObjectPooler : MonoBehaviour
                 return;
 
             go.gameObject.SetActive(false);
+            go.Init(DestroyObject);
             _pool.Add(go);
         }
     }
@@ -60,6 +61,7 @@ public class ObjectPooler : MonoBehaviour
                 return null;
 
             poolable.Init(DestroyObject);
+            _pool.Add(poolable);
         }
 
         return go;

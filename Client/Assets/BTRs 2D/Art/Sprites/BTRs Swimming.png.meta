@@ -1,0 +1,1135 @@
+fileFormatVersion: 2
+guid: 6530025cee7733f4da80fc6fb5a17f7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7511085504615034113
+    second: BTRs Swimming_0
+  - first:
+      213: -1230415311166012208
+    second: BTRs Swimming_1
+  - first:
+      213: -2612023347765382802
+    second: BTRs Swimming_2
+  - first:
+      213: 2002454244336712348
+    second: BTRs Swimming_3
+  - first:
+      213: 5384385802544193952
+    second: BTRs Swimming_4
+  - first:
+      213: 4465965467844706940
+    second: BTRs Swimming_5
+  - first:
+      213: -765798871905752834
+    second: BTRs Swimming_6
+  - first:
+      213: -3054816993443952109
+    second: BTRs Swimming_7
+  - first:
+      213: -6201466915301864965
+    second: BTRs Swimming_8
+  - first:
+      213: 7450637376480573275
+    second: BTRs Swimming_9
+  - first:
+      213: -4535481292057722466
+    second: BTRs Swimming_10
+  - first:
+      213: 3736009631461489359
+    second: BTRs Swimming_11
+  - first:
+      213: -7125250269095646283
+    second: BTRs Swimming_12
+  - first:
+      213: -4626619317552140852
+    second: BTRs Swimming_13
+  - first:
+      213: -8994590576301817488
+    second: BTRs Swimming_14
+  - first:
+      213: -4468857471854462820
+    second: BTRs Swimming_15
+  - first:
+      213: -7500515193965190536
+    second: BTRs Swimming_16
+  - first:
+      213: 4129201936683184023
+    second: BTRs Swimming_17
+  - first:
+      213: -4577107515084810792
+    second: BTRs Swimming_18
+  - first:
+      213: -5215849313187576040
+    second: BTRs Swimming_19
+  - first:
+      213: -6364821248490970399
+    second: BTRs Swimming_20
+  - first:
+      213: -774976470010414072
+    second: BTRs Swimming_21
+  - first:
+      213: -2878238272550828287
+    second: BTRs Swimming_22
+  - first:
+      213: 7718770201704013402
+    second: BTRs Swimming_23
+  - first:
+      213: 5800458043976994493
+    second: BTRs Swimming_24
+  - first:
+      213: -258317024984371560
+    second: BTRs Swimming_25
+  - first:
+      213: 5827801456149126565
+    second: BTRs Swimming_26
+  - first:
+      213: -2808534027371454380
+    second: BTRs Swimming_27
+  - first:
+      213: -614677165031841206
+    second: BTRs Swimming_28
+  - first:
+      213: 2203946133445895691
+    second: BTRs Swimming_29
+  - first:
+      213: 5135386178703080715
+    second: BTRs Swimming_30
+  - first:
+      213: -809073711046017824
+    second: BTRs Swimming_31
+  - first:
+      213: 4750809366355472012
+    second: BTRs Swimming_32
+  - first:
+      213: 1584027067750649885
+    second: BTRs Swimming_33
+  - first:
+      213: -6384768302339520077
+    second: BTRs Swimming_34
+  - first:
+      213: -4984730810578379397
+    second: BTRs Swimming_35
+  - first:
+      213: -6393203395149491192
+    second: BTRs Swimming_36
+  - first:
+      213: 7334174799025460291
+    second: BTRs Swimming_37
+  - first:
+      213: 9222366534224880308
+    second: BTRs Swimming_38
+  - first:
+      213: 7432115155925586091
+    second: BTRs Swimming_39
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BTRs Swimming_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 538
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2d5db678343c790800000000000000
+      internalID: -7511085504615034113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 538
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48fb32bcfaceee0800000000000000
+      internalID: -1230415311166012208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 538
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61fa63ba9a30cbd0800000000000000
+      internalID: -2612023347765382802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 538
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ab9a896852acb10800000000000000
+      internalID: 2002454244336712348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 538
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1ad461c5e29ba40800000000000000
+      internalID: 5384385802544193952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 463
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c728b0a6eeb4afd30800000000000000
+      internalID: 4465965467844706940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 463
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8a9aebbf55f55f0800000000000000
+      internalID: -765798871905752834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 463
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a42fb212c1b95d0800000000000000
+      internalID: -3054816993443952109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 463
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9481382b6ffe9a0800000000000000
+      internalID: -6201466915301864965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 463
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b577f5ff73bf56760800000000000000
+      internalID: 7450637376480573275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91487d7bcbbe01c0800000000000000
+      internalID: -4535481292057722466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 388
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca33b037f8f8d330800000000000000
+      internalID: 3736009631461489359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 388
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb2cc6a1a60e1d90800000000000000
+      internalID: -7125250269095646283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 388
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd285a5e32facfb0800000000000000
+      internalID: -4626619317552140852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 388
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0714477b68bcc2380800000000000000
+      internalID: -8994590576301817488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 313
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98b34e6ecd6bf1c0800000000000000
+      internalID: -4468857471854462820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 313
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872e847ab21d8e790800000000000000
+      internalID: -7500515193965190536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 313
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f2bd1b84fdd4930800000000000000
+      internalID: 4129201936683184023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_18
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 313
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5599037f8da70c0800000000000000
+      internalID: -4577107515084810792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 313
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174d753fa49d97b0800000000000000
+      internalID: -5215849313187576040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 238
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e266d8fbcc9ba7a0800000000000000
+      internalID: -6364821248490970399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 238
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c3ebba10bbe35f0800000000000000
+      internalID: -774976470010414072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 238
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1078ca96a817e08d0800000000000000
+      internalID: -2878238272550828287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 238
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e10774a949e1b60800000000000000
+      internalID: 7718770201704013402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 238
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4ecddbdd5f7050800000000000000
+      internalID: 5800458043976994493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 163
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eee5ec8064a6cf0800000000000000
+      internalID: -258317024984371560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 163
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add54f1c8280e050800000000000000
+      internalID: 5827801456149126565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_27
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 163
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506deeae251609d0800000000000000
+      internalID: -2808534027371454380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 163
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42abb6006a3877f0800000000000000
+      internalID: -614677165031841206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 163
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b066324d45df59e10800000000000000
+      internalID: 2203946133445895691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 88
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d3c06658e844740800000000000000
+      internalID: 5135386178703080715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_31
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 88
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecbef71fb795c4f0800000000000000
+      internalID: -809073711046017824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 88
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e6735a2f34ee140800000000000000
+      internalID: 4750809366355472012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_33
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 88
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1091efb9389bf510800000000000000
+      internalID: 1584027067750649885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 88
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b901e59e0fb467a0800000000000000
+      internalID: -6384768302339520077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dd78eecbda2dab0800000000000000
+      internalID: -4984730810578379397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8041b4f7267c647a0800000000000000
+      internalID: -6393203395149491192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344d8802f1938c560800000000000000
+      internalID: 7334174799025460291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_38
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2acec208d6cff70800000000000000
+      internalID: 9222366534224880308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Swimming_39
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 13
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0ddb67b5d242760800000000000000
+      internalID: 7432115155925586091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BTRs Swimming_15: -4468857471854462820
+      BTRs Swimming_32: 4750809366355472012
+      BTRs Swimming_8: -6201466915301864965
+      BTRs Swimming_24: 5800458043976994493
+      BTRs Swimming_5: 4465965467844706940
+      BTRs Swimming_2: -2612023347765382802
+      BTRs Swimming_33: 1584027067750649885
+      BTRs Swimming_27: -2808534027371454380
+      BTRs Swimming_1: -1230415311166012208
+      BTRs Swimming_26: 5827801456149126565
+      BTRs Swimming_22: -2878238272550828287
+      BTRs Swimming_19: -5215849313187576040
+      BTRs Swimming_20: -6364821248490970399
+      BTRs Swimming_35: -4984730810578379397
+      BTRs Swimming_25: -258317024984371560
+      BTRs Swimming_12: -7125250269095646283
+      BTRs Swimming_6: -765798871905752834
+      BTRs Swimming_7: -3054816993443952109
+      BTRs Swimming_38: 9222366534224880308
+      BTRs Swimming_18: -4577107515084810792
+      BTRs Swimming_16: -7500515193965190536
+      BTRs Swimming_11: 3736009631461489359
+      BTRs Swimming_9: 7450637376480573275
+      BTRs Swimming_37: 7334174799025460291
+      BTRs Swimming_4: 5384385802544193952
+      BTRs Swimming_0: -7511085504615034113
+      BTRs Swimming_31: -809073711046017824
+      BTRs Swimming_14: -8994590576301817488
+      BTRs Swimming_30: 5135386178703080715
+      BTRs Swimming_29: 2203946133445895691
+      BTRs Swimming_36: -6393203395149491192
+      BTRs Swimming_17: 4129201936683184023
+      BTRs Swimming_28: -614677165031841206
+      BTRs Swimming_10: -4535481292057722466
+      BTRs Swimming_34: -6384768302339520077
+      BTRs Swimming_21: -774976470010414072
+      BTRs Swimming_13: -4626619317552140852
+      BTRs Swimming_39: 7432115155925586091
+      BTRs Swimming_23: 7718770201704013402
+      BTRs Swimming_3: 2002454244336712348
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

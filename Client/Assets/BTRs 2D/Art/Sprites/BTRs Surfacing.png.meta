@@ -1,0 +1,1535 @@
+fileFormatVersion: 2
+guid: c09f43cc9d8f2a444974a1f6cb3bfac7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7981313597211288622
+    second: BTRs Surfacing_0
+  - first:
+      213: 8221407245912413390
+    second: BTRs Surfacing_1
+  - first:
+      213: 82447694264567189
+    second: BTRs Surfacing_2
+  - first:
+      213: -8304176452241572188
+    second: BTRs Surfacing_3
+  - first:
+      213: 4204777538831518379
+    second: BTRs Surfacing_4
+  - first:
+      213: -384305304713022761
+    second: BTRs Surfacing_5
+  - first:
+      213: -7552713604087731707
+    second: BTRs Surfacing_6
+  - first:
+      213: 4153782652190437112
+    second: BTRs Surfacing_7
+  - first:
+      213: -579212196002510464
+    second: BTRs Surfacing_8
+  - first:
+      213: 1860872483214584278
+    second: BTRs Surfacing_9
+  - first:
+      213: 680447082648828994
+    second: BTRs Surfacing_10
+  - first:
+      213: 9153499084925383406
+    second: BTRs Surfacing_11
+  - first:
+      213: 1309085504073076330
+    second: BTRs Surfacing_12
+  - first:
+      213: -4387470294503028153
+    second: BTRs Surfacing_13
+  - first:
+      213: -5188378026960448081
+    second: BTRs Surfacing_14
+  - first:
+      213: -4411747677837047308
+    second: BTRs Surfacing_15
+  - first:
+      213: -4200191175768386679
+    second: BTRs Surfacing_16
+  - first:
+      213: -7040145762372923338
+    second: BTRs Surfacing_17
+  - first:
+      213: -1870196448100056928
+    second: BTRs Surfacing_18
+  - first:
+      213: 7506327375528344760
+    second: BTRs Surfacing_19
+  - first:
+      213: -7636941582058294503
+    second: BTRs Surfacing_20
+  - first:
+      213: 6538144999106504101
+    second: BTRs Surfacing_21
+  - first:
+      213: -5528933242799986146
+    second: BTRs Surfacing_22
+  - first:
+      213: 2599117641675223627
+    second: BTRs Surfacing_23
+  - first:
+      213: -6899621867259274928
+    second: BTRs Surfacing_24
+  - first:
+      213: 2822752966598119934
+    second: BTRs Surfacing_25
+  - first:
+      213: -3430162417975294044
+    second: BTRs Surfacing_26
+  - first:
+      213: -3577935635664053996
+    second: BTRs Surfacing_27
+  - first:
+      213: -6039593496949157604
+    second: BTRs Surfacing_28
+  - first:
+      213: -5865499833367081589
+    second: BTRs Surfacing_29
+  - first:
+      213: -555379861897522151
+    second: BTRs Surfacing_30
+  - first:
+      213: -324384658229807351
+    second: BTRs Surfacing_31
+  - first:
+      213: -793398465093228998
+    second: BTRs Surfacing_32
+  - first:
+      213: 8175334440314989530
+    second: BTRs Surfacing_33
+  - first:
+      213: -3829540801568203137
+    second: BTRs Surfacing_34
+  - first:
+      213: 1310246441906430637
+    second: BTRs Surfacing_35
+  - first:
+      213: 2985073015600573134
+    second: BTRs Surfacing_36
+  - first:
+      213: -1341010872861305752
+    second: BTRs Surfacing_37
+  - first:
+      213: 2987518821120735651
+    second: BTRs Surfacing_38
+  - first:
+      213: 3900189642080659581
+    second: BTRs Surfacing_39
+  - first:
+      213: -8866783218736885393
+    second: BTRs Surfacing_40
+  - first:
+      213: 3051705219100439495
+    second: BTRs Surfacing_41
+  - first:
+      213: -1579040286193620444
+    second: BTRs Surfacing_42
+  - first:
+      213: 3295398510726048155
+    second: BTRs Surfacing_43
+  - first:
+      213: 5977605770291712579
+    second: BTRs Surfacing_44
+  - first:
+      213: -8961106762541982114
+    second: BTRs Surfacing_45
+  - first:
+      213: 2113301367811375023
+    second: BTRs Surfacing_46
+  - first:
+      213: -8835928040974588401
+    second: BTRs Surfacing_47
+  - first:
+      213: -8563545713155975432
+    second: BTRs Surfacing_48
+  - first:
+      213: 6653937098227181598
+    second: BTRs Surfacing_49
+  - first:
+      213: 7334348849461624081
+    second: BTRs Surfacing_50
+  - first:
+      213: 6294483558694277501
+    second: BTRs Surfacing_51
+  - first:
+      213: 5980724674698593858
+    second: BTRs Surfacing_52
+  - first:
+      213: -4538931838209750129
+    second: BTRs Surfacing_53
+  - first:
+      213: -5964583841922552053
+    second: BTRs Surfacing_54
+  - first:
+      213: 3821111751328597424
+    second: BTRs Surfacing_55
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BTRs Surfacing_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbd935f19dac3190800000000000000
+      internalID: -7981313597211288622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec49e6ec45e481270800000000000000
+      internalID: 8221407245912413390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5958039bdb9e42100800000000000000
+      internalID: 82447694264567189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3afb9383a1cc80800000000000000
+      internalID: -8304176452241572188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa0899c4ee5a5a30800000000000000
+      internalID: 4204777538831518379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2384b8c5caaaaf0800000000000000
+      internalID: -384305304713022761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a271a3efe5f2790800000000000000
+      internalID: -7552713604087731707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feadf1805335a930800000000000000
+      internalID: 4153782652190437112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08942b7939936f7f0800000000000000
+      internalID: -579212196002510464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ed460aa523d910800000000000000
+      internalID: 1860872483214584278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cfbb9340f617900800000000000000
+      internalID: 680447082648828994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee237d0abe2c70f70800000000000000
+      internalID: 9153499084925383406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e83e2845eca2210800000000000000
+      internalID: 1309085504073076330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_13
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a819153039c13c0800000000000000
+      internalID: -4387470294503028153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa594967cad2ff7b0800000000000000
+      internalID: -5188378026960448081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94ed78cd256c2c0800000000000000
+      internalID: -4411747677837047308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9835893116ce5b5c0800000000000000
+      internalID: -4200191175768386679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6305acabab06c4e90800000000000000
+      internalID: -7040145762372923338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a08cca3d3abb06e0800000000000000
+      internalID: -1870196448100056928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc38225af4db2860800000000000000
+      internalID: 7506327375528344760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9137107e712240690800000000000000
+      internalID: -7636941582058294503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a56db17c382cba50800000000000000
+      internalID: 6538144999106504101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1aee0c52884543b0800000000000000
+      internalID: -5528933242799986146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42b08179bbe11420800000000000000
+      internalID: 2599117641675223627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0595e7da77e9f30a0800000000000000
+      internalID: -6899621867259274928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_25
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1d2c61ede6c2720800000000000000
+      internalID: 2822752966598119934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a700b2647d9560d0800000000000000
+      internalID: -3430162417975294044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_27
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419580ffe7e985ec0800000000000000
+      internalID: -3577935635664053996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c111692b6bd0f2ca0800000000000000
+      internalID: -6039593496949157604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dca027afe899ea0800000000000000
+      internalID: -5865499833367081589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914513845f4ea48f0800000000000000
+      internalID: -555379861897522151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90730ab3fdd8f7bf0800000000000000
+      internalID: -324384658229807351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_32
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3627c2bc484df4f0800000000000000
+      internalID: -793398465093228998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_33
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbedf2db5f947170800000000000000
+      internalID: 8175334440314989530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e99a54eecbadac0800000000000000
+      internalID: -3829540801568203137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26d0a623eee2210800000000000000
+      internalID: 1310246441906430637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae973971c1d6920800000000000000
+      internalID: 2985073015600573134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_37
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8645a2357b5c36de0800000000000000
+      internalID: -1341010872861305752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9f1bc0a8cc57920800000000000000
+      internalID: 2987518821120735651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_39
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7820ecb0d1402630800000000000000
+      internalID: 3900189642080659581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_40
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f611bca04abd2f480800000000000000
+      internalID: -8866783218736885393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ffa76ab5d95a20800000000000000
+      internalID: 3051705219100439495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ae56fc93f161ae0800000000000000
+      internalID: -1579040286193620444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996d295c7b9bbd20800000000000000
+      internalID: 3295398510726048155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_44
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342109107c8b4f250800000000000000
+      internalID: 5977605770291712579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_45
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e9550a0e0c3a380800000000000000
+      internalID: -8961106762541982114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_46
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7eb3b564f35d10800000000000000
+      internalID: 2113301367811375023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_47
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06ebc0f24a706580800000000000000
+      internalID: -8835928040974588401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_48
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6d485ab8c282980800000000000000
+      internalID: -8563545713155975432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ef996988875c50800000000000000
+      internalID: 6653937098227181598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d74f66b67d8c560800000000000000
+      internalID: 7334348849461624081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_51
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715280727f7a5750800000000000000
+      internalID: 6294483558694277501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_52
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246c2d6876dcff250800000000000000
+      internalID: 5980724674698593858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_53
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b0ccb9a897201c0800000000000000
+      internalID: -4538931838209750129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_54
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0feb25f89a893da0800000000000000
+      internalID: -5964583841922552053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Surfacing_55
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5030984e0570530800000000000000
+      internalID: 3821111751328597424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BTRs Surfacing_13: -4387470294503028153
+      BTRs Surfacing_1: 8221407245912413390
+      BTRs Surfacing_25: 2822752966598119934
+      BTRs Surfacing_9: 1860872483214584278
+      BTRs Surfacing_37: -1341010872861305752
+      BTRs Surfacing_46: 2113301367811375023
+      BTRs Surfacing_5: -384305304713022761
+      BTRs Surfacing_22: -5528933242799986146
+      BTRs Surfacing_27: -3577935635664053996
+      BTRs Surfacing_20: -7636941582058294503
+      BTRs Surfacing_39: 3900189642080659581
+      BTRs Surfacing_3: -8304176452241572188
+      BTRs Surfacing_38: 2987518821120735651
+      BTRs Surfacing_10: 680447082648828994
+      BTRs Surfacing_23: 2599117641675223627
+      BTRs Surfacing_47: -8835928040974588401
+      BTRs Surfacing_0: -7981313597211288622
+      BTRs Surfacing_31: -324384658229807351
+      BTRs Surfacing_54: -5964583841922552053
+      BTRs Surfacing_18: -1870196448100056928
+      BTRs Surfacing_34: -3829540801568203137
+      BTRs Surfacing_42: -1579040286193620444
+      BTRs Surfacing_24: -6899621867259274928
+      BTRs Surfacing_35: 1310246441906430637
+      BTRs Surfacing_2: 82447694264567189
+      BTRs Surfacing_17: -7040145762372923338
+      BTRs Surfacing_52: 5980724674698593858
+      BTRs Surfacing_53: -4538931838209750129
+      BTRs Surfacing_15: -4411747677837047308
+      BTRs Surfacing_49: 6653937098227181598
+      BTRs Surfacing_50: 7334348849461624081
+      BTRs Surfacing_21: 6538144999106504101
+      BTRs Surfacing_14: -5188378026960448081
+      BTRs Surfacing_48: -8563545713155975432
+      BTRs Surfacing_45: -8961106762541982114
+      BTRs Surfacing_8: -579212196002510464
+      BTRs Surfacing_4: 4204777538831518379
+      BTRs Surfacing_55: 3821111751328597424
+      BTRs Surfacing_41: 3051705219100439495
+      BTRs Surfacing_19: 7506327375528344760
+      BTRs Surfacing_7: 4153782652190437112
+      BTRs Surfacing_11: 9153499084925383406
+      BTRs Surfacing_26: -3430162417975294044
+      BTRs Surfacing_6: -7552713604087731707
+      BTRs Surfacing_51: 6294483558694277501
+      BTRs Surfacing_30: -555379861897522151
+      BTRs Surfacing_40: -8866783218736885393
+      BTRs Surfacing_16: -4200191175768386679
+      BTRs Surfacing_28: -6039593496949157604
+      BTRs Surfacing_33: 8175334440314989530
+      BTRs Surfacing_32: -793398465093228998
+      BTRs Surfacing_43: 3295398510726048155
+      BTRs Surfacing_36: 2985073015600573134
+      BTRs Surfacing_29: -5865499833367081589
+      BTRs Surfacing_12: 1309085504073076330
+      BTRs Surfacing_44: 5977605770291712579
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

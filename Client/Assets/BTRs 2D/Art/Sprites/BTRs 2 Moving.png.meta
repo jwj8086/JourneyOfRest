@@ -1,0 +1,1135 @@
+fileFormatVersion: 2
+guid: 9b5ab55178d04ee4e89c04e6fd1aab29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6203290362494802626
+    second: BTRs 2 Moving_0
+  - first:
+      213: 985471814158608328
+    second: BTRs 2 Moving_1
+  - first:
+      213: -5810424164067113300
+    second: BTRs 2 Moving_2
+  - first:
+      213: 2754106882704367016
+    second: BTRs 2 Moving_3
+  - first:
+      213: 4577478873207767018
+    second: BTRs 2 Moving_4
+  - first:
+      213: 8349362366613989493
+    second: BTRs 2 Moving_5
+  - first:
+      213: 3475563682839606986
+    second: BTRs 2 Moving_6
+  - first:
+      213: -3768164996248867985
+    second: BTRs 2 Moving_7
+  - first:
+      213: 3770685906250157224
+    second: BTRs 2 Moving_8
+  - first:
+      213: -8811314667392512684
+    second: BTRs 2 Moving_9
+  - first:
+      213: 314064050357713104
+    second: BTRs 2 Moving_10
+  - first:
+      213: 3495330439584689755
+    second: BTRs 2 Moving_11
+  - first:
+      213: 124557808664084550
+    second: BTRs 2 Moving_12
+  - first:
+      213: -687704463383986602
+    second: BTRs 2 Moving_13
+  - first:
+      213: 19451649527111608
+    second: BTRs 2 Moving_14
+  - first:
+      213: 4577776564215103220
+    second: BTRs 2 Moving_15
+  - first:
+      213: -1597041876776998974
+    second: BTRs 2 Moving_16
+  - first:
+      213: -7132561017816157918
+    second: BTRs 2 Moving_17
+  - first:
+      213: 271552021665813318
+    second: BTRs 2 Moving_18
+  - first:
+      213: -7627889187671529062
+    second: BTRs 2 Moving_19
+  - first:
+      213: 213108352137454178
+    second: BTRs 2 Moving_20
+  - first:
+      213: 8279660678732454387
+    second: BTRs 2 Moving_21
+  - first:
+      213: -3683384039703977051
+    second: BTRs 2 Moving_22
+  - first:
+      213: -3367663384402456328
+    second: BTRs 2 Moving_23
+  - first:
+      213: 3099866850693860079
+    second: BTRs 2 Moving_24
+  - first:
+      213: 7543692875101943589
+    second: BTRs 2 Moving_25
+  - first:
+      213: 8571776800556823629
+    second: BTRs 2 Moving_26
+  - first:
+      213: -33479054512616835
+    second: BTRs 2 Moving_27
+  - first:
+      213: -7183952900083548107
+    second: BTRs 2 Moving_28
+  - first:
+      213: 3177417614173472573
+    second: BTRs 2 Moving_29
+  - first:
+      213: -6303008119700276644
+    second: BTRs 2 Moving_30
+  - first:
+      213: -2334034667371445009
+    second: BTRs 2 Moving_31
+  - first:
+      213: 6577748281281775412
+    second: BTRs 2 Moving_32
+  - first:
+      213: -5107428418384821766
+    second: BTRs 2 Moving_33
+  - first:
+      213: 5486283852371157600
+    second: BTRs 2 Moving_34
+  - first:
+      213: -8739431570018050267
+    second: BTRs 2 Moving_35
+  - first:
+      213: -305078677577273435
+    second: BTRs 2 Moving_36
+  - first:
+      213: 6981457375526548536
+    second: BTRs 2 Moving_37
+  - first:
+      213: 3153146531063680875
+    second: BTRs 2 Moving_38
+  - first:
+      213: 9106593154400334773
+    second: BTRs 2 Moving_39
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BTRs 2 Moving_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35a4e0284c79e9a0800000000000000
+      internalID: -6203290362494802626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 676
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7651bc4691dad00800000000000000
+      internalID: 985471814158608328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 676
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca60f6af10a3d5fa0800000000000000
+      internalID: -5810424164067113300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 676
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad5d013e9d883620800000000000000
+      internalID: 2754106882704367016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef776c58c8768f30800000000000000
+      internalID: 4577478873207767018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 601
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578aa0be5d4eed370800000000000000
+      internalID: 8349362366613989493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 601
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac637e551ceab3030800000000000000
+      internalID: 3475563682839606986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 601
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b668786e9c4bbc0800000000000000
+      internalID: -3768164996248867985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8accc919ada245430800000000000000
+      internalID: 3770685906250157224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d41ed8efbe7b580800000000000000
+      internalID: -8811314667392512684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8ba4ef697cb5400800000000000000
+      internalID: 314064050357713104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e2e080488e18030800000000000000
+      internalID: 3495330439584689755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6408c63caa48ab100800000000000000
+      internalID: 124557808664084550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65efb852f68c476f0800000000000000
+      internalID: -687704463383986602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfdb541c2b154000800000000000000
+      internalID: 19451649527111608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3623f787878f30800000000000000
+      internalID: 4577776564215103220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7a843efda26d9e0800000000000000
+      internalID: -1597041876776998974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f4425b8d040d90800000000000000
+      internalID: -7132561017816157918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6431e6dff1fb4c300800000000000000
+      internalID: 271552021665813318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99abc6b23b442690800000000000000
+      internalID: -7627889187671529062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26262dbcaec15f200800000000000000
+      internalID: 213108352137454178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f91e90158347e270800000000000000
+      internalID: 8279660678732454387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3e9163bbdf1ecc0800000000000000
+      internalID: -3683384039703977051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01a999ef7a341d0800000000000000
+      internalID: -3367663384402456328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feacd961a70f40b20800000000000000
+      internalID: 3099866850693860079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527b813a3b490b860800000000000000
+      internalID: 7543692875101943589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44bf1bb59115f670800000000000000
+      internalID: 8571776800556823629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a0c503afe098ff0800000000000000
+      internalID: -33479054512616835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530026b46e87d4c90800000000000000
+      internalID: -7183952900083548107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3701e34c74781c20800000000000000
+      internalID: 3177417614173472573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5abcd882873788a0800000000000000
+      internalID: -6303008119700276644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4c0e516d7db9fd0800000000000000
+      internalID: -2334034667371445009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378cbf163bd84b50800000000000000
+      internalID: 6577748281281775412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1007ee9e4ce19b0800000000000000
+      internalID: -5107428418384821766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0626b8d9812332c40800000000000000
+      internalID: 5486283852371157600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_35
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f5d326a4d47b680800000000000000
+      internalID: -8739431570018050267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afe5722f8424cbf0800000000000000
+      internalID: -305078677577273435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8347ac26e7e13e060800000000000000
+      internalID: 6981457375526548536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f4ecc501a32cb20800000000000000
+      internalID: 3153146531063680875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs 2 Moving_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b33902a93e116e70800000000000000
+      internalID: 9106593154400334773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BTRs 2 Moving_15: 4577776564215103220
+      BTRs 2 Moving_16: -1597041876776998974
+      BTRs 2 Moving_3: 2754106882704367016
+      BTRs 2 Moving_11: 3495330439584689755
+      BTRs 2 Moving_31: -2334034667371445009
+      BTRs 2 Moving_12: 124557808664084550
+      BTRs 2 Moving_9: -8811314667392512684
+      BTRs 2 Moving_14: 19451649527111608
+      BTRs 2 Moving_23: -3367663384402456328
+      BTRs 2 Moving_21: 8279660678732454387
+      BTRs 2 Moving_22: -3683384039703977051
+      BTRs 2 Moving_7: -3768164996248867985
+      BTRs 2 Moving_4: 4577478873207767018
+      BTRs 2 Moving_20: 213108352137454178
+      BTRs 2 Moving_29: 3177417614173472573
+      BTRs 2 Moving_36: -305078677577273435
+      BTRs 2 Moving_35: -8739431570018050267
+      BTRs 2 Moving_32: 6577748281281775412
+      BTRs 2 Moving_13: -687704463383986602
+      BTRs 2 Moving_0: -6203290362494802626
+      BTRs 2 Moving_2: -5810424164067113300
+      BTRs 2 Moving_25: 7543692875101943589
+      BTRs 2 Moving_5: 8349362366613989493
+      BTRs 2 Moving_30: -6303008119700276644
+      BTRs 2 Moving_26: 8571776800556823629
+      BTRs 2 Moving_37: 6981457375526548536
+      BTRs 2 Moving_38: 3153146531063680875
+      BTRs 2 Moving_27: -33479054512616835
+      BTRs 2 Moving_33: -5107428418384821766
+      BTRs 2 Moving_1: 985471814158608328
+      BTRs 2 Moving_19: -7627889187671529062
+      BTRs 2 Moving_34: 5486283852371157600
+      BTRs 2 Moving_6: 3475563682839606986
+      BTRs 2 Moving_18: 271552021665813318
+      BTRs 2 Moving_24: 3099866850693860079
+      BTRs 2 Moving_10: 314064050357713104
+      BTRs 2 Moving_8: 3770685906250157224
+      BTRs 2 Moving_17: -7132561017816157918
+      BTRs 2 Moving_28: -7183952900083548107
+      BTRs 2 Moving_39: 9106593154400334773
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

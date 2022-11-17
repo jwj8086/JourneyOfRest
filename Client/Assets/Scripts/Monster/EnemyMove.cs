@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
@@ -10,7 +11,7 @@ public class EnemyMove : MonoBehaviour {
     [SerializeField] private Animator anim = null;
     [SerializeField] private SpriteRenderer spriteRenderer = null;
     [SerializeField] private BoxCollider2D boxcollider2D = null;
-
+    private RigidbodyConstraints2D constraints2D;
     #endregion
 
     #region GameObjects
@@ -20,7 +21,7 @@ public class EnemyMove : MonoBehaviour {
     #endregion
     public float nextMove;
     public Transform targetTransform;
-    public float sight = 30;
+    public float sight = 40;
     public bool isTracking = false;
 
     //나중에 피해 추가
@@ -135,10 +136,10 @@ public class EnemyMove : MonoBehaviour {
             return;
 
         if (isTracking == false) {
-            nextMove = Random.Range(-1, 2) * 9;
+            nextMove = Random.Range(-1, 2) * 10;
         }
         else {
-            nextMove = ( targetTransform.position - transform.position ).normalized.x * 9;
+            nextMove = ( targetTransform.position - transform.position ).normalized.x * 10;
         }
 
         anim.SetFloat("WalkSpeed", Mathf.Abs(nextMove));
@@ -187,7 +188,8 @@ public class EnemyMove : MonoBehaviour {
         if (e_curHp <= 0.0f){
             _isAlive = false;
             anim.SetTrigger("Die");
-
+            Destroy(this.rigid);
+            Destroy(this.boxcollider2D);
             Destroy(this.gameObject, 1);
             return;
         }

@@ -1,0 +1,1335 @@
+fileFormatVersion: 2
+guid: 38adc4c8c0f1bb447a8fd7173a7cc535
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4635716257232936525
+    second: BTRs Water care_0
+  - first:
+      213: -6453314378247445563
+    second: BTRs Water care_1
+  - first:
+      213: -4756796382179451948
+    second: BTRs Water care_2
+  - first:
+      213: -1543042780022426723
+    second: BTRs Water care_3
+  - first:
+      213: 2056328223062769180
+    second: BTRs Water care_4
+  - first:
+      213: -1826958518151338019
+    second: BTRs Water care_5
+  - first:
+      213: -3798571501786066072
+    second: BTRs Water care_6
+  - first:
+      213: -8604080392576982296
+    second: BTRs Water care_7
+  - first:
+      213: -8826476941088297288
+    second: BTRs Water care_8
+  - first:
+      213: -8268247562647230163
+    second: BTRs Water care_9
+  - first:
+      213: -6948657265845940332
+    second: BTRs Water care_10
+  - first:
+      213: 603786487427433295
+    second: BTRs Water care_11
+  - first:
+      213: 5609675369249852721
+    second: BTRs Water care_12
+  - first:
+      213: 4333270002152648602
+    second: BTRs Water care_13
+  - first:
+      213: 2197403211662980254
+    second: BTRs Water care_14
+  - first:
+      213: -2534552445445104765
+    second: BTRs Water care_15
+  - first:
+      213: -3526497741474913606
+    second: BTRs Water care_16
+  - first:
+      213: -5108982378452250590
+    second: BTRs Water care_17
+  - first:
+      213: 8071854845179298971
+    second: BTRs Water care_18
+  - first:
+      213: -6961511427794111296
+    second: BTRs Water care_19
+  - first:
+      213: 1541981892100185671
+    second: BTRs Water care_20
+  - first:
+      213: 4064925380575680857
+    second: BTRs Water care_21
+  - first:
+      213: -5541172451777718540
+    second: BTRs Water care_22
+  - first:
+      213: 2963801075676866285
+    second: BTRs Water care_23
+  - first:
+      213: -8924835738264437109
+    second: BTRs Water care_24
+  - first:
+      213: 6473269340490042586
+    second: BTRs Water care_25
+  - first:
+      213: -6350454763298306748
+    second: BTRs Water care_26
+  - first:
+      213: 7582192377259601714
+    second: BTRs Water care_27
+  - first:
+      213: -1996848119077453324
+    second: BTRs Water care_28
+  - first:
+      213: -1606169350518147038
+    second: BTRs Water care_29
+  - first:
+      213: -8722443632772222407
+    second: BTRs Water care_30
+  - first:
+      213: -2855900056892441345
+    second: BTRs Water care_31
+  - first:
+      213: -1319861804124972109
+    second: BTRs Water care_32
+  - first:
+      213: -3542084587863856473
+    second: BTRs Water care_33
+  - first:
+      213: -7988136692725736710
+    second: BTRs Water care_34
+  - first:
+      213: 4741316675314112823
+    second: BTRs Water care_35
+  - first:
+      213: 4411573172092628110
+    second: BTRs Water care_36
+  - first:
+      213: 908244972068906987
+    second: BTRs Water care_37
+  - first:
+      213: 1985030927631006628
+    second: BTRs Water care_38
+  - first:
+      213: 1654179587859159274
+    second: BTRs Water care_39
+  - first:
+      213: 8400989831561061207
+    second: BTRs Water care_40
+  - first:
+      213: 3215769066335398923
+    second: BTRs Water care_41
+  - first:
+      213: 3970194959627086643
+    second: BTRs Water care_42
+  - first:
+      213: -1476774111125539019
+    second: BTRs Water care_43
+  - first:
+      213: -2562791703949897600
+    second: BTRs Water care_44
+  - first:
+      213: -4872533868480516865
+    second: BTRs Water care_45
+  - first:
+      213: 7673662846689932512
+    second: BTRs Water care_46
+  - first:
+      213: -9153727891506289474
+    second: BTRs Water care_47
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BTRs Water care_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5fd7ff5f555040800000000000000
+      internalID: 4635716257232936525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3e3ac93c83176a0800000000000000
+      internalID: -6453314378247445563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db945b94e67cfdb0800000000000000
+      internalID: -4756796382179451948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93388754c2069ae0800000000000000
+      internalID: -1543042780022426723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e344dbf9b898c10800000000000000
+      internalID: 2056328223062769180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 526
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7273a48e655a6e0800000000000000
+      internalID: -1826958518151338019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8639e164853c84bc0800000000000000
+      internalID: -3798571501786066072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2ab85287a289880800000000000000
+      internalID: -8604080392576982296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be614c9cfd028580800000000000000
+      internalID: -8826476941088297288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d292c6916a8414d80800000000000000
+      internalID: -8268247562647230163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc0534809619f90800000000000000
+      internalID: -6948657265845940332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 451
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f430b4f7c94116800800000000000000
+      internalID: 603786487427433295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d4569e60299dd40800000000000000
+      internalID: 5609675369249852721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f2a2abb1ed22c30800000000000000
+      internalID: 4333270002152648602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e947973249ebe7e10800000000000000
+      internalID: 2197403211662980254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b95a0caf573dcd0800000000000000
+      internalID: -2534552445445104765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ab220dfc5f0fc0800000000000000
+      internalID: -3526497741474913606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_17
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 376
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2209f98689f3919b0800000000000000
+      internalID: -5108982378452250590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948d65173df40070800000000000000
+      internalID: 8071854845179298971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c472867d3eb36f90800000000000000
+      internalID: -6961511427794111296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e57b07c58366510800000000000000
+      internalID: 1541981892100185671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959dea3c814896830800000000000000
+      internalID: 4064925380575680857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6db94730dc913b0800000000000000
+      internalID: -5541172451777718540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_23
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 301
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6e3ac1069812920800000000000000
+      internalID: 2963801075676866285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e790e8e2d942480800000000000000
+      internalID: -8924835738264437109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc06571b2ca5d950800000000000000
+      internalID: 6473269340490042586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ca67f907aed7a0800000000000000
+      internalID: -6350454763298306748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fab318bcb593960800000000000000
+      internalID: 7582192377259601714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_28
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14bf72735c944e0800000000000000
+      internalID: -1996848119077453324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 226
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228fe3d4c7db5b9e0800000000000000
+      internalID: -1606169350518147038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9327e3fbab7a3f680800000000000000
+      internalID: -8722443632772222407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc78ea870ecd58d0800000000000000
+      internalID: -2855900056892441345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb568c9ea8eeade0800000000000000
+      internalID: -1319861804124972109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2df785dcf7dec0800000000000000
+      internalID: -3542084587863856473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_34
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa91dc3000742190800000000000000
+      internalID: -7988136692725736710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_35
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 151
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739dbb7456a8cc140800000000000000
+      internalID: 4741316675314112823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c693f2d6e093d30800000000000000
+      internalID: 4411573172092628110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7a3317dfbba9c00800000000000000
+      internalID: 908244972068906987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab3c9d8c1f3c8b10800000000000000
+      internalID: 1985030927631006628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_39
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae81c092293d4f610800000000000000
+      internalID: 1654179587859159274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753addfcdbf469470800000000000000
+      internalID: 8400989831561061207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_41
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 76
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c6c9e8de4b0ac20800000000000000
+      internalID: 3215769066335398923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6e91e747f81730800000000000000
+      internalID: 3970194959627086643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5377edc25c1718be0800000000000000
+      internalID: -1476774111125539019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_44
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0809fb406822f6cd0800000000000000
+      internalID: -2562791703949897600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_45
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffca82d2348416cb0800000000000000
+      internalID: -4872533868480516865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_46
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4f017c3b35e7a60800000000000000
+      internalID: 7673662846689932512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BTRs Water care_47
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4ae203bfc67f080800000000000000
+      internalID: -9153727891506289474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BTRs Water care_15: -2534552445445104765
+      BTRs Water care_35: 4741316675314112823
+      BTRs Water care_1: -6453314378247445563
+      BTRs Water care_46: 7673662846689932512
+      BTRs Water care_27: 7582192377259601714
+      BTRs Water care_12: 5609675369249852721
+      BTRs Water care_17: -5108982378452250590
+      BTRs Water care_18: 8071854845179298971
+      BTRs Water care_47: -9153727891506289474
+      BTRs Water care_43: -1476774111125539019
+      BTRs Water care_0: 4635716257232936525
+      BTRs Water care_8: -8826476941088297288
+      BTRs Water care_31: -2855900056892441345
+      BTRs Water care_45: -4872533868480516865
+      BTRs Water care_30: -8722443632772222407
+      BTRs Water care_6: -3798571501786066072
+      BTRs Water care_4: 2056328223062769180
+      BTRs Water care_9: -8268247562647230163
+      BTRs Water care_39: 1654179587859159274
+      BTRs Water care_41: 3215769066335398923
+      BTRs Water care_3: -1543042780022426723
+      BTRs Water care_38: 1985030927631006628
+      BTRs Water care_11: 603786487427433295
+      BTRs Water care_24: -8924835738264437109
+      BTRs Water care_44: -2562791703949897600
+      BTRs Water care_28: -1996848119077453324
+      BTRs Water care_5: -1826958518151338019
+      BTRs Water care_22: -5541172451777718540
+      BTRs Water care_26: -6350454763298306748
+      BTRs Water care_21: 4064925380575680857
+      BTRs Water care_10: -6948657265845940332
+      BTRs Water care_2: -4756796382179451948
+      BTRs Water care_37: 908244972068906987
+      BTRs Water care_13: 4333270002152648602
+      BTRs Water care_19: -6961511427794111296
+      BTRs Water care_16: -3526497741474913606
+      BTRs Water care_20: 1541981892100185671
+      BTRs Water care_40: 8400989831561061207
+      BTRs Water care_7: -8604080392576982296
+      BTRs Water care_33: -3542084587863856473
+      BTRs Water care_14: 2197403211662980254
+      BTRs Water care_25: 6473269340490042586
+      BTRs Water care_32: -1319861804124972109
+      BTRs Water care_29: -1606169350518147038
+      BTRs Water care_34: -7988136692725736710
+      BTRs Water care_23: 2963801075676866285
+      BTRs Water care_42: 3970194959627086643
+      BTRs Water care_36: 4411573172092628110
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

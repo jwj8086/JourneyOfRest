@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
@@ -188,7 +189,7 @@ public class EnemyMove : MonoBehaviour {
         if (e_curHp <= 0.0f){
             _isAlive = false;
             anim.SetTrigger("Die");
-            Destroy(this.rigid);
+            rigid.constraints = RigidbodyConstraints2D.FreezePosition;
             Destroy(this.boxcollider2D);
             Destroy(this.gameObject, 1);
             return;

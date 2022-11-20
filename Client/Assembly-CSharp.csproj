@@ -58,17 +58,22 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\LivingEntity.cs" />
+    <Compile Include="Assets\Scripts\MenuUI\Quit.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Monster\EnemyMove.cs" />
+    <Compile Include="Assets\Scripts\MenuUI\Start.cs" />
     <Compile Include="Assets\Scripts\Utils\Extensions.cs" />
     <Compile Include="Assets\Scripts\Monster\EnemyAttackRangeController.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler\Poolable.cs" />
     <Compile Include="Assets\Scripts\Player\Weaponary.cs" />
+    <Compile Include="Assets\Scripts\MenuUI\Chapter1.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Object\Bullet\Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\Movement2D.cs" />
+    <Compile Include="Assets\Scripts\MenuUI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler\ObjectPooler.cs" />
+    <Compile Include="Assets\Scripts\MenuUI\Chapter2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

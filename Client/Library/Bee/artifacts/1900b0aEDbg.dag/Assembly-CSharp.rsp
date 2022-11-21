@@ -382,6 +382,8 @@
 "Assets/Scripts/MenuUI/MainMenu.cs"
 "Assets/Scripts/MenuUI/Quit.cs"
 "Assets/Scripts/MenuUI/Start.cs"
+"Assets/Scripts/MenuUI/Volume.cs"
+"Assets/Scripts/Merchant/Store.cs"
 "Assets/Scripts/Monster/EnemyAttackRangeController.cs"
 "Assets/Scripts/Monster/EnemyMove.cs"
 "Assets/Scripts/Object/Bullet/Bullet.cs"

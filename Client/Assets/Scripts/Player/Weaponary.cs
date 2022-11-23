@@ -78,7 +78,9 @@ public class Weaponary : MonoBehaviour {
     }
 
     private void Start() {
-        
+        Debug.Log($"Left:{_muzzleTransforms[0].transform.forward}");
+        Debug.Log($"Right:{_muzzleTransforms[1].transform.forward}");
+        Debug.Log($"Up:{_muzzleTransforms[2].transform.forward}");
     }
 
     private void Reset() {
@@ -125,7 +127,7 @@ public class Weaponary : MonoBehaviour {
             return;
 
         Bullet bullet = go.GetComponent<Bullet>();
-        bullet.Initialize(dir, _activatedMuzzleTransform.position);
+        bullet.Initialize(dir, _activatedMuzzleTransform);
         bullet.gameObject.SetActive(true);
         //TODO: 사운드 재생 구현
     }

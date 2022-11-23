@@ -321,7 +321,7 @@ MonoBehaviour:
   player: {fileID: 0}
   nextMove: 0
   targetTransform: {fileID: 0}
-  sight: 30
+  sight: 40
   isTracking: 0
   e_maxHp: 40
   E_atkDamage: 10

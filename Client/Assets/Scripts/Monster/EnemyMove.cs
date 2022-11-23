@@ -6,7 +6,8 @@ using Unity.VisualScripting;
 using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour {
+public class EnemyMove : MonoBehaviour
+{
     #region Components
     [SerializeField] private Rigidbody2D rigid = null;
     [SerializeField] private Animator anim = null;
@@ -35,26 +36,35 @@ public class EnemyMove : MonoBehaviour {
     public bool E_Attack = false;
     public float E_atkCoolTime = 2.0f;
     private WaitForSeconds E_AttackInterval = null;
+    public float e_Onhitinterval = 0.5f;
+    private WaitForSeconds E_OnHitInterval = null;
+    private bool _isHit = false;
 
-    public PlayerController Player {
+    public PlayerController Player
+    {
         get { return player; }
-        set {
+        set
+        {
             player = value;
-            if(null == value) {
+            if (null == value)
+            {
                 E_Attack = false;
             }
-            else {
+            else
+            {
                 E_Attack = true;
                 Attack();
             }
         }
     }
 
-    void Awake() {
+    void Awake()
+    {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         E_AttackInterval = new WaitForSeconds(E_atkCoolTime);
+        E_OnHitInterval = new WaitForSeconds(e_Onhitinterval);
         bullet = GetComponent<Bullet>();
 
         Invoke("Think", 0);
@@ -65,18 +75,23 @@ public class EnemyMove : MonoBehaviour {
         e_curHp = e_maxHp;
     }
 
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         Move();
         Debug.Log($"CurHp: {e_curHp}");
     }
 
-    void Move() {
+    void Move()
+    {
         if (!_isAlive)
+            return;
+
+        if (_isHit)
             return;
 
         if (E_Attack)
             return;
+
         rigid.velocity = new Vector2(nextMove, rigid.velocity.y);
 
         Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
@@ -84,39 +99,46 @@ public class EnemyMove : MonoBehaviour {
 
         RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 3, LayerMask.GetMask("Platform"));
 
-        if(rayHit.collider == null) {
+        if (rayHit.collider == null)
+        {
             Turn();
         }
 
         Vector2 moveForce = targetTransform.position - transform.position;
 
 
-        if(moveForce.magnitude < 10) {
+        if (moveForce.magnitude < 10)
+        {
             isTracking = true;
 
             //TODO: 바라보는 방향이 플레이어 위치가 아닐 경우
             Turn(moveForce.x < 0);
         }
 
-        if(isTracking) {
-            if(moveForce.y > 5) {
+        if (isTracking)
+        {
+            if (moveForce.y > 5)
+            {
                 isTracking = false;
             }
         }
     }
 
-    void Attack() {
+    void Attack()
+    {
         if (!_isAlive)
             return;
 
-        if(player == null)
+        if (player == null)
             return;
 
         StartCoroutine(CoAttacking());
     }
 
-    private IEnumerator CoAttacking() {
-        while(true) {
+    private IEnumerator CoAttacking()
+    {
+        while (true)
+        {
             if (!_isAlive)
                 break;
 
@@ -136,17 +158,20 @@ public class EnemyMove : MonoBehaviour {
         if (!_isAlive)
             return;
 
-        if (isTracking == false) {
+        if (isTracking == false)
+        {
             nextMove = Random.Range(-1, 2) * 10;
         }
-        else {
-            nextMove = ( targetTransform.position - transform.position ).normalized.x * 10;
+        else
+        {
+            nextMove = (targetTransform.position - transform.position).normalized.x * 10;
         }
 
         anim.SetFloat("WalkSpeed", Mathf.Abs(nextMove));
 
-        if(nextMove != 0) {
-            spriteRenderer.flipX = ( nextMove < 0 );
+        if (nextMove != 0)
+        {
+            spriteRenderer.flipX = (nextMove < 0);
         }
 
         float nextThinkTime = Random.Range(2f, 5f);
@@ -155,18 +180,20 @@ public class EnemyMove : MonoBehaviour {
 
     }
 
-    void Turn() {
+    void Turn()
+    {
         if (!_isAlive)
             return;
 
-        nextMove = nextMove * ( -1 );
-        spriteRenderer.flipX = ( nextMove < 0 );
+        nextMove = nextMove * (-1);
+        spriteRenderer.flipX = (nextMove < 0);
 
         CancelInvoke();
         Invoke("Think", 1);
     }
 
-    void Turn(bool direction) {
+    void Turn(bool direction)
+    {
         if (!_isAlive)
             return;
 
@@ -185,8 +212,10 @@ public class EnemyMove : MonoBehaviour {
         if (_isAlive == false) return;
         Debug.Log($"Damage: {damage}");
         e_curHp = Mathf.Clamp(e_curHp - damage, 0f, e_maxHp);
+        
 
-        if (e_curHp <= 0.0f){
+        if (e_curHp <= 0.0f)
+        {
             _isAlive = false;
             anim.SetTrigger("Die");
             rigid.constraints = RigidbodyConstraints2D.FreezePosition;
@@ -195,6 +224,15 @@ public class EnemyMove : MonoBehaviour {
             return;
         }
         anim.SetTrigger("OnHit");
+        StartCoroutine(CoStartOnHit());
         return;
+    }
+
+    private IEnumerator CoStartOnHit()
+    {
+        _isHit = true;
+        yield return E_OnHitInterval;
+        _isHit = false;
+        yield break;
     }
 }
